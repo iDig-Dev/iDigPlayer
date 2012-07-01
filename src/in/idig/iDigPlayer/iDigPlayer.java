@@ -20,7 +20,7 @@ public class iDigPlayer extends JavaPlugin{
 	
 	public void onEnable(){
 		commandsHandler = new CommandsHandler(this);
-		getCommand("idig").setExecutor(commandsHandler);
+		getCommand("player").setExecutor(commandsHandler);
 		
 		String PluginVersion = version();
 		this.logMessage("***************************");
@@ -31,6 +31,7 @@ public class iDigPlayer extends JavaPlugin{
 	}
 
 	public void onDisable(){
+		//TODO: Close all transactions
 		this.logMessage("***************************");
 		this.logMessage("*   iDigPlayer Disabled    *");
 		this.logMessage("***************************");
