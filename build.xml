@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <!--Borrowed ant file structure from logblock  -->
-<project default="iDigPlayer">
+<!-- switch default to iDigPlayer if you want to skip downloading the full craft/bukkit jars -->
+<project default="iDigPlayer_full">
 	<target name="iDigPlayer">
 		<mkdir dir="lib/"/>
 		<mkdir dir="bin/"/>
