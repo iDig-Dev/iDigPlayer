@@ -13,7 +13,7 @@
 	<target name="iDigPlayer_testing">
 			<mkdir dir="lib/"/>
 			<mkdir dir="bin/"/>
-			<jar destfile="BukkitServer/plugins/iDigPlayer.jar" manifest="MANIFEST.MF">
+			<jar destfile="../BukkitServer/plugins/iDigPlayer.jar" manifest="MANIFEST.MF">
 				<fileset dir="bin/"/>
 				<fileset file="src/plugin.yml"/>
 			</jar>

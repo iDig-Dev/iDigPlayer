@@ -1,5 +1,8 @@
 package in.idig.iDigPlayer;
 
+import in.idig.iDigPlayer.config.Config;
+
+import java.io.IOException;
 import java.util.logging.Logger;
 
 import org.bukkit.ChatColor;
@@ -7,6 +10,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
+import org.bukkit.configuration.InvalidConfigurationException;
 
 
 public class iDigPlayer extends JavaPlugin{
@@ -22,7 +26,6 @@ public class iDigPlayer extends JavaPlugin{
 	public void onEnable(){
 		commandsHandler = new CommandsHandler(this);
 		getCommand("player").setExecutor(commandsHandler);
-		
 		String PluginVersion = version();
 		//TODO: Clean up loading message
 		this.logMessage("***************************");
@@ -37,7 +40,7 @@ public class iDigPlayer extends JavaPlugin{
 	public void onDisable(){
 		//TODO: Close all transactions
 		this.logMessage("***************************");
-		this.logMessage("*   iDigPlayer Disabled    *");
+		this.logMessage("*   iDigPlayer Disabled :-)   *");
 		this.logMessage("***************************");
 	}
 
