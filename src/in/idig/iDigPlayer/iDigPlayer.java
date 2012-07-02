@@ -10,6 +10,7 @@ import org.bukkit.command.CommandSender;
 
 
 public class iDigPlayer extends JavaPlugin{
+	iDigPlayer iDig = this;
 	
 	private Logger log = Logger.getLogger("Minecraft");
 	private CommandsHandler commandsHandler;
@@ -23,11 +24,14 @@ public class iDigPlayer extends JavaPlugin{
 		getCommand("player").setExecutor(commandsHandler);
 		
 		String PluginVersion = version();
+		//TODO: Clean up loading message
 		this.logMessage("***************************");
 		this.logMessage("*   iDig Player Enabled    *");
-		this.logMessage("*   " + PluginVersion +"    *");
+		this.logMessage("*   iDigPlayer" + PluginVersion +"    *");
 		this.logMessage("***************************");
-		
+		iDig.logMessage("Testing Logger");
+		//TODO: Load Configuration file
+		//TODO: Launch mysql connection
 	}
 
 	public void onDisable(){

@@ -1,0 +1,511 @@
+2012-07-01 21:32:00 [INFO] Starting minecraft server version 1.2.5
+2012-07-01 21:32:00 [WARNING] **** NOT ENOUGH RAM!
+2012-07-01 21:32:00 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-07-01 21:32:00 [INFO] Loading properties
+2012-07-01 21:32:00 [WARNING] server.properties does not exist
+2012-07-01 21:32:00 [INFO] Generating new properties file
+2012-07-01 21:32:00 [INFO] Starting Minecraft server on *:25565
+2012-07-01 21:32:01 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-01 21:32:01 [WARNING] Failed to load ban list: java.io.FileNotFoundException: banned-players.txt (No such file or directory)
+2012-07-01 21:32:01 [WARNING] Failed to load ip ban list: java.io.FileNotFoundException: banned-ips.txt (No such file or directory)
+2012-07-01 21:32:01 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ops.txt (No such file or directory)
+2012-07-01 21:32:01 [WARNING] Failed to load white-list: java.io.FileNotFoundException: white-list.txt (No such file or directory)
+2012-07-01 21:32:01 [INFO] Preparing level "world"
+2012-07-01 21:32:01 [INFO] Default game type: 0
+2012-07-01 21:32:02 [INFO] Preparing start region for level 0 (Seed: -3682887701751041246)
+2012-07-01 21:32:03 [INFO] Preparing spawn area: 4%
+2012-07-01 21:32:04 [INFO] Preparing spawn area: 8%
+2012-07-01 21:32:05 [INFO] Preparing spawn area: 16%
+2012-07-01 21:32:06 [INFO] Preparing spawn area: 20%
+2012-07-01 21:32:07 [INFO] Preparing spawn area: 28%
+2012-07-01 21:32:08 [INFO] Preparing spawn area: 36%
+2012-07-01 21:32:09 [INFO] Preparing spawn area: 44%
+2012-07-01 21:32:10 [INFO] Preparing spawn area: 53%
+2012-07-01 21:32:11 [INFO] Preparing spawn area: 65%
+2012-07-01 21:32:12 [INFO] Preparing spawn area: 73%
+2012-07-01 21:32:13 [INFO] Preparing spawn area: 81%
+2012-07-01 21:32:14 [INFO] Preparing spawn area: 93%
+2012-07-01 21:32:15 [INFO] Preparing start region for level 1 (Seed: -3682887701751041246)
+2012-07-01 21:32:15 [INFO] Preparing spawn area: 0%
+2012-07-01 21:32:16 [INFO] Preparing spawn area: 12%
+2012-07-01 21:32:17 [INFO] Preparing spawn area: 20%
+2012-07-01 21:32:18 [INFO] Preparing spawn area: 36%
+2012-07-01 21:32:19 [INFO] Preparing spawn area: 44%
+2012-07-01 21:32:20 [INFO] Preparing spawn area: 56%
+2012-07-01 21:32:21 [INFO] Preparing spawn area: 73%
+2012-07-01 21:32:22 [INFO] Preparing spawn area: 77%
+2012-07-01 21:32:23 [INFO] Preparing spawn area: 89%
+2012-07-01 21:32:24 [INFO] Preparing spawn area: 97%
+2012-07-01 21:32:25 [INFO] Preparing start region for level 2 (Seed: -3682887701751041246)
+2012-07-01 21:32:25 [INFO] Preparing spawn area: 28%
+2012-07-01 21:32:26 [INFO] Preparing spawn area: 57%
+2012-07-01 21:32:27 [INFO] Preparing spawn area: 97%
+2012-07-01 21:32:28 [INFO] Done (26.650s)! For help, type "help" or "?"
+2012-07-01 21:32:50 [INFO] Unknown command. Type "help" for help.[m
+2012-07-01 21:32:52 [INFO] Unknown command. Type "help" for help.[m
+2012-07-01 21:32:53 [INFO] CONSOLE: Stopping the server..[m
+2012-07-01 21:32:53 [INFO] Stopping server
+2012-07-01 21:32:53 [INFO] Saving chunks
+2012-07-01 21:32:57 [INFO] Stopping server
+2012-07-01 21:32:57 [INFO] Saving chunks
+2012-07-01 21:33:26 [INFO] Starting minecraft server version 1.2.5
+2012-07-01 21:33:26 [WARNING] **** NOT ENOUGH RAM!
+2012-07-01 21:33:26 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-07-01 21:33:26 [INFO] Loading properties
+2012-07-01 21:33:26 [INFO] Starting Minecraft server on *:25565
+2012-07-01 21:33:27 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-01 21:33:27 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:194)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:189)
+	at net.minecraft.server.ServerConfigurationManager.<init>(ServerConfigurationManager.java:53)
+	at net.minecraft.server.MinecraftServer.init(MinecraftServer.java:166)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:432)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 8 more
+2012-07-01 21:33:27 [INFO] Preparing level "world"
+2012-07-01 21:33:27 [INFO] Default game type: 0
+2012-07-01 21:33:27 [INFO] Preparing start region for level 0 (Seed: -3682887701751041246)
+2012-07-01 21:33:28 [INFO] Preparing start region for level 1 (Seed: -3682887701751041246)
+2012-07-01 21:33:28 [INFO] Preparing spawn area: 0%
+2012-07-01 21:33:29 [INFO] Preparing spawn area: 97%
+2012-07-01 21:33:29 [INFO] Preparing start region for level 2 (Seed: -3682887701751041246)
+2012-07-01 21:33:30 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 21:33:30 [INFO] Done (2.849s)! For help, type "help" or "?"
+2012-07-01 21:33:51 [INFO] CONSOLE: Stopping the server..[m
+2012-07-01 21:33:51 [INFO] Stopping server
+2012-07-01 21:33:51 [INFO] Saving chunks
+2012-07-01 21:33:53 [INFO] Stopping server
+2012-07-01 21:33:54 [INFO] Saving chunks
+2012-07-01 21:55:58 [INFO] Starting minecraft server version 1.2.5
+2012-07-01 21:55:58 [WARNING] **** NOT ENOUGH RAM!
+2012-07-01 21:55:58 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-07-01 21:55:58 [INFO] Loading properties
+2012-07-01 21:55:58 [INFO] Starting Minecraft server on *:25565
+2012-07-01 21:55:58 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-01 21:55:58 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ClassNotFoundException: in.idig.iDigPlayer.iDigPlayer
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:151)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:189)
+	at net.minecraft.server.ServerConfigurationManager.<init>(ServerConfigurationManager.java:53)
+	at net.minecraft.server.MinecraftServer.init(MinecraftServer.java:166)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:432)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.ClassNotFoundException: in.idig.iDigPlayer.iDigPlayer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:41)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:29)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:140)
+	... 8 more
+2012-07-01 21:55:58 [INFO] Preparing level "world"
+2012-07-01 21:55:58 [INFO] Default game type: 0
+2012-07-01 21:55:58 [INFO] Preparing start region for level 0 (Seed: -3682887701751041246)
+2012-07-01 21:55:59 [INFO] Preparing start region for level 1 (Seed: -3682887701751041246)
+2012-07-01 21:55:59 [INFO] Preparing spawn area: 0%
+2012-07-01 21:56:00 [INFO] Preparing start region for level 2 (Seed: -3682887701751041246)
+2012-07-01 21:56:00 [INFO] Preparing spawn area: 0%
+2012-07-01 21:56:01 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 21:56:01 [INFO] Done (2.746s)! For help, type "help" or "?"
+2012-07-01 21:57:42 [INFO] 182 recipes
+2012-07-01 21:57:42 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ClassNotFoundException: in.idig.iDigPlayer
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:151)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:550)
+	at org.bukkit.Bukkit.reload(Bukkit.java:182)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:22)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:166)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:479)
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:475)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:612)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:581)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.ClassNotFoundException: in.idig.iDigPlayer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:41)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:29)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:140)
+	... 13 more
+2012-07-01 21:57:42 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 21:57:42 [INFO] [32;1mReload complete.[m
+2012-07-01 21:59:52 [INFO] 182 recipes
+2012-07-01 21:59:52 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ClassNotFoundException: in.idig.iDigPlayer.iDigPlayer
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:151)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:550)
+	at org.bukkit.Bukkit.reload(Bukkit.java:182)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:22)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:166)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:479)
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:475)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:612)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:581)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.ClassNotFoundException: in.idig.iDigPlayer.iDigPlayer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:41)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:29)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:140)
+	... 13 more
+2012-07-01 21:59:52 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 21:59:52 [INFO] [32;1mReload complete.[m
+2012-07-01 22:04:00 [INFO] 182 recipes
+2012-07-01 22:04:00 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: main is not defined
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:213)
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:42)
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:199)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:550)
+	at org.bukkit.Bukkit.reload(Bukkit.java:182)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:22)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:166)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:479)
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:475)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:612)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:581)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.NullPointerException
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:208)
+	... 14 more
+2012-07-01 22:04:00 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:04:00 [INFO] [32;1mReload complete.[m
+2012-07-01 22:05:35 [INFO] Plugins (0): [m
+2012-07-01 22:05:41 [INFO] Unknown command. Type "help" for help.[m
+2012-07-01 22:05:44 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)[m
+2012-07-01 22:06:55 [INFO] 182 recipes
+2012-07-01 22:06:55 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: main is not defined
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:213)
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:42)
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:199)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:550)
+	at org.bukkit.Bukkit.reload(Bukkit.java:182)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:22)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:166)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:479)
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:475)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:612)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:581)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.NullPointerException
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:208)
+	... 14 more
+2012-07-01 22:06:55 [INFO] [iDigCommands] Loading iDigCommands v0.1
+2012-07-01 22:06:55 [INFO] [iDigCommands] Enabling iDigCommands v0.1
+2012-07-01 22:06:55 [INFO] [iDigCommands] ***************************
+2012-07-01 22:06:55 [INFO] [iDigCommands] *   iDig Suite Enabled    *
+2012-07-01 22:06:55 [INFO] [iDigCommands] *   Version0.1    *
+2012-07-01 22:06:55 [INFO] [iDigCommands] ***************************
+2012-07-01 22:06:55 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:06:55 [INFO] [32;1mReload complete.[m
+2012-07-01 22:15:40 [INFO] [iDigCommands] Disabling iDigCommands v0.1
+2012-07-01 22:15:40 [INFO] [iDigCommands] ***************************
+2012-07-01 22:15:40 [INFO] [iDigCommands] *   iDig Suite Disabled    *
+2012-07-01 22:15:40 [INFO] [iDigCommands] ***************************
+2012-07-01 22:15:40 [INFO] 182 recipes
+2012-07-01 22:15:40 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: main is not defined
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:213)
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:42)
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:199)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:550)
+	at org.bukkit.Bukkit.reload(Bukkit.java:182)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:22)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:166)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:479)
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:475)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:612)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:581)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.NullPointerException
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:208)
+	... 14 more
+2012-07-01 22:15:40 [INFO] [iDigCommands] Loading iDigCommands v0.1
+2012-07-01 22:15:40 [INFO] [iDigCommands] Enabling iDigCommands v0.1
+2012-07-01 22:15:40 [INFO] [iDigCommands] ***************************
+2012-07-01 22:15:40 [INFO] [iDigCommands] *   iDig Suite Enabled    *
+2012-07-01 22:15:40 [INFO] [iDigCommands] *   Version0.1    *
+2012-07-01 22:15:40 [INFO] [iDigCommands] ***************************
+2012-07-01 22:15:40 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:15:40 [INFO] [32;1mReload complete.[m
+2012-07-01 22:19:14 [INFO] [iDigCommands] Disabling iDigCommands v0.1
+2012-07-01 22:19:14 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:14 [INFO] [iDigCommands] *   iDig Suite Disabled    *
+2012-07-01 22:19:14 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:14 [INFO] 182 recipes
+2012-07-01 22:19:14 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: main is not defined
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:213)
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:42)
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:199)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:550)
+	at org.bukkit.Bukkit.reload(Bukkit.java:182)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:22)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:166)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:479)
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:475)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:612)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:581)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.NullPointerException
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:208)
+	... 14 more
+2012-07-01 22:19:14 [INFO] [iDigCommands] Loading iDigCommands v0.1
+2012-07-01 22:19:14 [INFO] [iDigCommands] Enabling iDigCommands v0.1
+2012-07-01 22:19:14 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:14 [INFO] [iDigCommands] *   iDig Suite Enabled    *
+2012-07-01 22:19:14 [INFO] [iDigCommands] *   Version0.1    *
+2012-07-01 22:19:14 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:14 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:19:14 [INFO] [32;1mReload complete.[m
+2012-07-01 22:19:23 [INFO] CONSOLE: Stopping the server..[m
+2012-07-01 22:19:23 [INFO] Stopping server
+2012-07-01 22:19:23 [INFO] [iDigCommands] Disabling iDigCommands v0.1
+2012-07-01 22:19:23 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:23 [INFO] [iDigCommands] *   iDig Suite Disabled    *
+2012-07-01 22:19:23 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:23 [INFO] Saving chunks
+2012-07-01 22:19:24 [INFO] Stopping server
+2012-07-01 22:19:24 [INFO] Saving chunks
+2012-07-01 22:19:36 [INFO] Starting minecraft server version 1.2.5
+2012-07-01 22:19:36 [WARNING] **** NOT ENOUGH RAM!
+2012-07-01 22:19:36 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-07-01 22:19:36 [INFO] Loading properties
+2012-07-01 22:19:36 [INFO] Starting Minecraft server on *:25565
+2012-07-01 22:19:36 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-01 22:19:36 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: main is not defined
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:213)
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:42)
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:199)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:189)
+	at net.minecraft.server.ServerConfigurationManager.<init>(ServerConfigurationManager.java:53)
+	at net.minecraft.server.MinecraftServer.init(MinecraftServer.java:166)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:432)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.NullPointerException
+	at org.bukkit.plugin.PluginDescriptionFile.loadMap(PluginDescriptionFile.java:208)
+	... 9 more
+2012-07-01 22:19:36 [INFO] [iDigCommands] Loading iDigCommands v0.1
+2012-07-01 22:19:36 [INFO] Preparing level "world"
+2012-07-01 22:19:36 [INFO] Default game type: 0
+2012-07-01 22:19:36 [INFO] Preparing start region for level 0 (Seed: -3682887701751041246)
+2012-07-01 22:19:37 [INFO] Preparing start region for level 1 (Seed: -3682887701751041246)
+2012-07-01 22:19:37 [INFO] Preparing spawn area: 0%
+2012-07-01 22:19:38 [INFO] Preparing spawn area: 97%
+2012-07-01 22:19:38 [INFO] Preparing start region for level 2 (Seed: -3682887701751041246)
+2012-07-01 22:19:39 [INFO] [iDigCommands] Enabling iDigCommands v0.1
+2012-07-01 22:19:39 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:39 [INFO] [iDigCommands] *   iDig Suite Enabled    *
+2012-07-01 22:19:39 [INFO] [iDigCommands] *   Version0.1    *
+2012-07-01 22:19:39 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:39 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:19:39 [INFO] Done (2.721s)! For help, type "help" or "?"
+2012-07-01 22:19:52 [INFO] Stopping server
+2012-07-01 22:19:52 [INFO] [iDigCommands] Disabling iDigCommands v0.1
+2012-07-01 22:19:52 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:52 [INFO] [iDigCommands] *   iDig Suite Disabled    *
+2012-07-01 22:19:52 [INFO] [iDigCommands] ***************************
+2012-07-01 22:19:52 [INFO] Saving chunks
+2012-07-01 22:21:18 [INFO] Starting minecraft server version 1.2.5
+2012-07-01 22:21:18 [WARNING] **** NOT ENOUGH RAM!
+2012-07-01 22:21:18 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-07-01 22:21:18 [INFO] Loading properties
+2012-07-01 22:21:18 [INFO] Starting Minecraft server on *:25565
+2012-07-01 22:21:18 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-01 22:21:19 [INFO] [iDigCommands] Loading iDigCommands v0.1
+2012-07-01 22:21:19 [INFO] Preparing level "world"
+2012-07-01 22:21:19 [INFO] Default game type: 0
+2012-07-01 22:21:19 [INFO] Preparing start region for level 0 (Seed: -3682887701751041246)
+2012-07-01 22:21:20 [INFO] Preparing start region for level 1 (Seed: -3682887701751041246)
+2012-07-01 22:21:20 [INFO] Preparing spawn area: 3%
+2012-07-01 22:21:21 [INFO] Preparing start region for level 2 (Seed: -3682887701751041246)
+2012-07-01 22:21:21 [INFO] Preparing spawn area: 0%
+2012-07-01 22:21:21 [INFO] [iDigCommands] Enabling iDigCommands v0.1
+2012-07-01 22:21:21 [INFO] [iDigCommands] ***************************
+2012-07-01 22:21:21 [INFO] [iDigCommands] *   iDig Suite Enabled    *
+2012-07-01 22:21:21 [INFO] [iDigCommands] *   Version0.1    *
+2012-07-01 22:21:21 [INFO] [iDigCommands] ***************************
+2012-07-01 22:21:21 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:21:21 [INFO] Done (2.717s)! For help, type "help" or "?"
+2012-07-01 22:21:45 [INFO] Stopping server
+2012-07-01 22:21:45 [INFO] [iDigCommands] Disabling iDigCommands v0.1
+2012-07-01 22:21:45 [INFO] [iDigCommands] ***************************
+2012-07-01 22:21:45 [INFO] [iDigCommands] *   iDig Suite Disabled    *
+2012-07-01 22:21:45 [INFO] [iDigCommands] ***************************
+2012-07-01 22:24:39 [INFO] Starting minecraft server version 1.2.5
+2012-07-01 22:24:39 [WARNING] **** NOT ENOUGH RAM!
+2012-07-01 22:24:39 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-07-01 22:24:39 [INFO] Loading properties
+2012-07-01 22:24:39 [INFO] Starting Minecraft server on *:25565
+2012-07-01 22:24:39 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-01 22:24:39 [SEVERE] Could not load 'plugins/iDigPlayer.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ClassNotFoundException: in.idig.iDigPlayer.iDigPlayer.iDigPlayer
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:151)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:189)
+	at net.minecraft.server.ServerConfigurationManager.<init>(ServerConfigurationManager.java:53)
+	at net.minecraft.server.MinecraftServer.init(MinecraftServer.java:166)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:432)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.ClassNotFoundException: in.idig.iDigPlayer.iDigPlayer.iDigPlayer
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:41)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:29)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:140)
+	... 8 more
+2012-07-01 22:24:39 [INFO] [iDigCommands] Loading iDigCommands v0.1
+2012-07-01 22:24:39 [INFO] Preparing level "world"
+2012-07-01 22:24:39 [INFO] Default game type: 0
+2012-07-01 22:24:39 [INFO] Preparing start region for level 0 (Seed: -3682887701751041246)
+2012-07-01 22:24:40 [INFO] Preparing start region for level 1 (Seed: -3682887701751041246)
+2012-07-01 22:24:40 [INFO] Preparing spawn area: 4%
+2012-07-01 22:24:41 [INFO] Preparing spawn area: 97%
+2012-07-01 22:24:42 [INFO] Preparing start region for level 2 (Seed: -3682887701751041246)
+2012-07-01 22:24:42 [INFO] [iDigCommands] Enabling iDigCommands v0.1
+2012-07-01 22:24:42 [INFO] [iDigCommands] ***************************
+2012-07-01 22:24:42 [INFO] [iDigCommands] *   iDig Suite Enabled    *
+2012-07-01 22:24:42 [INFO] [iDigCommands] *   Version0.1    *
+2012-07-01 22:24:42 [INFO] [iDigCommands] ***************************
+2012-07-01 22:24:42 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:24:42 [INFO] Done (2.786s)! For help, type "help" or "?"
+2012-07-01 22:29:34 [INFO] [iDigCommands] Disabling iDigCommands v0.1
+2012-07-01 22:29:34 [INFO] [iDigCommands] ***************************
+2012-07-01 22:29:34 [INFO] [iDigCommands] *   iDig Suite Disabled    *
+2012-07-01 22:29:34 [INFO] [iDigCommands] ***************************
+2012-07-01 22:29:34 [INFO] 182 recipes
+2012-07-01 22:29:34 [INFO] [iDigCommands] Loading iDigCommands v0.1
+2012-07-01 22:29:34 [INFO] [iDigPlayer] Loading iDigPlayer v0.1
+2012-07-01 22:29:34 [INFO] [iDigCommands] Enabling iDigCommands v0.1
+2012-07-01 22:29:34 [INFO] [iDigCommands] ***************************
+2012-07-01 22:29:34 [INFO] [iDigCommands] *   iDig Suite Enabled    *
+2012-07-01 22:29:34 [INFO] [iDigCommands] *   Version0.1    *
+2012-07-01 22:29:34 [INFO] [iDigCommands] ***************************
+2012-07-01 22:29:34 [INFO] [iDigPlayer] Enabling iDigPlayer v0.1
+2012-07-01 22:29:34 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:29:34 [INFO] iDigPlayer 0.1: *   iDig Player Enabled    *
+2012-07-01 22:29:34 [INFO] iDigPlayer 0.1: *   0.1    *
+2012-07-01 22:29:34 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:29:34 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:29:34 [INFO] [32;1mReload complete.[m
+2012-07-01 22:30:06 [INFO] CONSOLE: Stopping the server..[m
+2012-07-01 22:30:06 [INFO] Stopping server
+2012-07-01 22:30:06 [INFO] [iDigPlayer] Disabling iDigPlayer v0.1
+2012-07-01 22:30:06 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:30:06 [INFO] iDigPlayer 0.1: *   iDigPlayer Disabled    *
+2012-07-01 22:30:06 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:30:06 [INFO] [iDigCommands] Disabling iDigCommands v0.1
+2012-07-01 22:30:06 [INFO] [iDigCommands] ***************************
+2012-07-01 22:30:06 [INFO] [iDigCommands] *   iDig Suite Disabled    *
+2012-07-01 22:30:06 [INFO] [iDigCommands] ***************************
+2012-07-01 22:30:06 [INFO] Saving chunks
+2012-07-01 22:30:07 [INFO] Stopping server
+2012-07-01 22:30:07 [INFO] Saving chunks
+2012-07-01 22:30:17 [INFO] Starting minecraft server version 1.2.5
+2012-07-01 22:30:17 [WARNING] **** NOT ENOUGH RAM!
+2012-07-01 22:30:17 [WARNING] To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+2012-07-01 22:30:17 [INFO] Loading properties
+2012-07-01 22:30:17 [INFO] Starting Minecraft server on *:25565
+2012-07-01 22:30:17 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-01 22:30:18 [INFO] [iDigCommands] Loading iDigCommands v0.1
+2012-07-01 22:30:18 [INFO] [iDigPlayer] Loading iDigPlayer v0.1
+2012-07-01 22:30:18 [INFO] Preparing level "world"
+2012-07-01 22:30:18 [INFO] Default game type: 0
+2012-07-01 22:30:18 [INFO] Preparing start region for level 0 (Seed: -3682887701751041246)
+2012-07-01 22:30:19 [INFO] Preparing start region for level 1 (Seed: -3682887701751041246)
+2012-07-01 22:30:19 [INFO] Preparing spawn area: 4%
+2012-07-01 22:30:20 [INFO] Preparing spawn area: 93%
+2012-07-01 22:30:20 [INFO] Preparing start region for level 2 (Seed: -3682887701751041246)
+2012-07-01 22:30:20 [INFO] [iDigCommands] Enabling iDigCommands v0.1
+2012-07-01 22:30:20 [INFO] [iDigCommands] ***************************
+2012-07-01 22:30:20 [INFO] [iDigCommands] *   iDig Suite Enabled    *
+2012-07-01 22:30:20 [INFO] [iDigCommands] *   Version0.1    *
+2012-07-01 22:30:20 [INFO] [iDigCommands] ***************************
+2012-07-01 22:30:20 [INFO] [iDigPlayer] Enabling iDigPlayer v0.1
+2012-07-01 22:30:20 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:30:20 [INFO] iDigPlayer 0.1: *   iDig Player Enabled    *
+2012-07-01 22:30:20 [INFO] iDigPlayer 0.1: *   0.1    *
+2012-07-01 22:30:20 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:30:20 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:30:21 [INFO] Done (2.830s)! For help, type "help" or "?"
+2012-07-01 22:31:40 [INFO] [iDigPlayer] Disabling iDigPlayer v0.1
+2012-07-01 22:31:40 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:31:40 [INFO] iDigPlayer 0.1: *   iDigPlayer Disabled    *
+2012-07-01 22:31:40 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:31:40 [INFO] [iDigCommands] Disabling iDigCommands v0.1
+2012-07-01 22:31:40 [INFO] [iDigCommands] ***************************
+2012-07-01 22:31:40 [INFO] [iDigCommands] *   iDig Suite Disabled    *
+2012-07-01 22:31:40 [INFO] [iDigCommands] ***************************
+2012-07-01 22:31:40 [INFO] 182 recipes
+2012-07-01 22:31:40 [INFO] [iDigCommands] Loading iDigCommands v0.1
+2012-07-01 22:31:40 [INFO] [iDigPlayer] Loading iDigPlayer v0.1
+2012-07-01 22:31:40 [INFO] [iDigCommands] Enabling iDigCommands v0.1
+2012-07-01 22:31:40 [INFO] [iDigCommands] ***************************
+2012-07-01 22:31:40 [INFO] [iDigCommands] *   iDig Suite Enabled    *
+2012-07-01 22:31:40 [INFO] [iDigCommands] *   Version0.1    *
+2012-07-01 22:31:40 [INFO] [iDigCommands] ***************************
+2012-07-01 22:31:40 [INFO] [iDigPlayer] Enabling iDigPlayer v0.1
+2012-07-01 22:31:40 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:31:40 [INFO] iDigPlayer 0.1: *   iDig Player Enabled    *
+2012-07-01 22:31:40 [INFO] iDigPlayer 0.1: *   iDigPlayer0.1    *
+2012-07-01 22:31:40 [INFO] iDigPlayer 0.1: ***************************
+2012-07-01 22:31:40 [INFO] iDigPlayer 0.1: Testing Logger
+2012-07-01 22:31:40 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-01 22:31:40 [INFO] [32;1mReload complete.[m
+2012-07-01 22:32:27 [INFO] [35;1miDigPlayer by the iDig Dev team[m
+2012-07-01 22:32:27 [INFO] [35;1mType /player help for help[m
+2012-07-01 22:32:49 [INFO] [36;22miDigPlayer Help:[m
+2012-07-01 22:32:49 [INFO] [33;22m'[m

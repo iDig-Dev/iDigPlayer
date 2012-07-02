@@ -1,9 +1,0 @@
-name: iDigPlayer
-version: 0.1
-main: in.idig.iDigPlayer.iDigPlayer
-commands:
-   player:
-      description: iDigPlayer Root Cmd
-      usage: /<command>
-      permission: iDigPlayer.player
-      permisison-message: You do not have permissions

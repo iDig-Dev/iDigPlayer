@@ -1,4 +1,4 @@
-package in.idig.iDigCommands;
+package in.idig.iDigPlayer;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -14,7 +14,7 @@ public class CommandsHandler implements CommandExecutor{
 	//Commented out to test main logging function
 	//private Logger logger = Logger.getLogger("Minecraft");
 
-	public CommandsHandler(iDigCommands iDigCommands){
+	public CommandsHandler(iDigPlayer iDigPlayer){
 		// TODO Auto-generated constructor stub
 	}
 
@@ -59,7 +59,7 @@ public class CommandsHandler implements CommandExecutor{
 			sender.sendMessage(ChatColor.RED + ex.getMessage());
 		} catch (final Exception ex) {
 			sender.sendMessage(ChatColor.RED + "Error, check log");
-			logger.log(Level.WARNING, "[LogBlock] Exception in commands handler: ", ex);
+			//logger.log(Level.WARNING, "[LogBlock] Exception in commands handler: ", ex);
 		}
 		return true;
 	}
